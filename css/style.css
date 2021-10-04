@@ -70,7 +70,6 @@
 
 /* images */
 
-/* writes */
 
 /* heart on image */
 .box .heart {
@@ -88,7 +87,7 @@
   font-size: 15px;
   font-weight: 800;
   position: absolute;
-  bottom:10px;
+  bottom:20px;
   left:0;
 }
 /* sostenibilità on image */
@@ -99,19 +98,30 @@
   font-size: 15px;
   font-weight: 800;
   position: absolute;
-  bottom:10px;
+  bottom:20px;
   left:50px;
 }
 
+#sost {
+  color: white;
+  background-color: rgb(41, 151, 50);
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 800;
+  position: absolute;
+  bottom:20px;
+  left:0;
+}
+
 /* words under images */
-.box p {
+.tests p {
   color: gray;
   text-transform: capitalize;
   font-size: 15px;
   margin-top:500px;
 }
 
-.box h3 {
+.tests h3 {
   color: black;
   text-transform:uppercase;
   font-size: 20px;
@@ -119,13 +129,13 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.box span {
+.tests span {
   color: red;
   font-size: 18px;
   font-weight: 700;
 }
 
-.box :nth-child(6) {
+.tests :nth-child(4) {
   color: gray;
   text-decoration: line-through;
   font-size: 18px;
