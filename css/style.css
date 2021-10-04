@@ -49,8 +49,16 @@
 /* /setting layout */
 
 /* images */
+
+.box .origin {
+  width: 100%;
+  height: 500px;
+}
+
+
 .contenitor .one {
-  background-image:url(../img/1.webp);
+  background-image: url(../img/1.webp);
+  background-blend-mode: multiply;
 }
 .contenitor .two {
   background-image:url(../img/2.webp)
@@ -143,4 +151,26 @@
 }
 
 /* /words under images*/
+
+/* hover images */
+.box.one:hover {
+  background-image:url(../img/1b.webp);
+}
+.box.two:hover {
+  background-image:url(../img/2b.webp);
+}
+.box.three:hover {
+  background-image:url(../img/3b.webp);
+}
+.box.four:hover {
+  background-image:url(../img/4b.webp);
+}
+.box.five:hover {
+  background-image:url(../img/5b.webp);
+}
+.box.six:hover {
+  background-image:url(../img/6b.webp);
+}
+
+/* /hoverimages */
 
