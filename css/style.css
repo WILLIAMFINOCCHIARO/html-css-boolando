@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* setting layout */
+.contenitor {
+  width: 80%;
+  margin:20px auto;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitor .box {
+  width: calc(100%/3 - 20px);
+  margin:0px 10px 60px 0px;
+  float: left;
+}
+
+/* debug */
+
+.contenitor.debug {
+  background-color: gray;
+
+}
+
+.debug .box {
+  height: 500px;
+  border:1px solid black ;
+  background-color: yellow;
+}
